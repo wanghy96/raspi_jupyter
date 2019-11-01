@@ -5,7 +5,7 @@ echo "export PATH=$PATH:~/.local/bin" | sudo tee -a /etc/profile
 source /etc/profile
 jupyter notebook --generate-config
 jupyter notebook password
-sudo cp /home/pi/jupyter_notebook_config.py ~/.jupyter/jupyter_notebook_config.py
+sudo cp jupyter_notebook_config.py ~/.jupyter/jupyter_notebook_config.py
 sudo cp rc.local /etc/
 sudo chmod +x /etc/rc.local
 sudo cp dhcpcd.conf /etc/
