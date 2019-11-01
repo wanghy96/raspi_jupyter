@@ -1,3 +1,4 @@
+#!/bin/bash
 git clone https://github.com/wanghy96/raspi_jupyter.git
 sudo pip3 install --upgrade jupyter-core
 sudo pip3 install --upgrade jupyter-client
