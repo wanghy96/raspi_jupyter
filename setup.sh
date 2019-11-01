@@ -1,4 +1,3 @@
-#!/bin/bash
 sudo pip3 install --upgrade jupyter-core
 sudo pip3 install --upgrade jupyter-client
 sudo pip3 install requests bs4 lxml xlwt xlrd django yagmail jupyter pyecharts
@@ -11,4 +10,5 @@ sudo cp rc.local /etc/
 sudo chmod +x /etc/rc.local
 sudo cp dhcpcd.conf /etc/
 sudo cp speak_ip.py /var/speak_raspi_ip/
+sudo cp profile /etc/
 echo 'finished!'
