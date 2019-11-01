@@ -19,5 +19,5 @@ fi
 
 
 sudo /usr/bin/python2 /var/speak_raspi_ip/speak_ip.py
-jupyter notebook --port 8888 --allow-root --ip 192.168.2.2 --no-browser
+jupyter notebook
 exit 0
