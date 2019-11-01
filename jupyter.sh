@@ -1,0 +1,1 @@
+jupyter notebook --port 8888 --allow-root --ip 192.168.2.2 --no-browser
