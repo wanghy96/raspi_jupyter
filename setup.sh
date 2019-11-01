@@ -8,4 +8,5 @@ jupyter notebook password
 sudo cp rc.local /etc/
 sudo chmod +x /etc/rc.local
 sudo chmod 777 /home/pi/jupyter.sh
+sudo cp dhcpcd.conf /etc/
 echo 'finished!'
