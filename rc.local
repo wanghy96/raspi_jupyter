@@ -19,5 +19,5 @@ fi
 
 
 sudo /usr/bin/python2 /var/speak_raspi_ip/speak_ip.py
-jupyter notebook
+jupyter notebook --allow-root &
 exit 0
