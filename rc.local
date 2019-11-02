@@ -18,6 +18,6 @@ if [ "$_IP" ]; then
 fi
 
 
-sudo /usr/bin/python2 /var/speak_raspi_ip/speak_ip.py
+sudo /usr/bin/python2 /var/speak_raspi_ip/speak_ip.py &
 jupyter notebook --allow-root &
 exit 0
